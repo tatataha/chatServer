@@ -116,7 +116,7 @@ Typically, you would install a client or use a command-line interface (CLI) to c
 
 1. Use a command like:
    ```bash
-   ssh -p 443 -R0:localhost:3000 -L4300:localhost:4300 qr@a.pinggy.io ⚡️
+   ssh -p 443 -R0:localhost:3000 -L4300:localhost:4300 qr@a.pinggy.io
    ```
    This would expose your local server running on port 3000 to a public Pinggy URL.
 
